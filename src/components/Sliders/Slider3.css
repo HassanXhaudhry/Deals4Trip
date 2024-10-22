@@ -1,0 +1,27 @@
+.carousel-container {
+    position: relative;
+}
+
+.custom-indicator {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.indicator-bar {
+    width: 30px;
+    height: 4px;
+    background-color: #ccc;
+    border-radius: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.indicator-bar.active {
+    background-color: #80A102;
+}
+
+.p-carousel .p-carousel-indicators {
+    display: none;
+}

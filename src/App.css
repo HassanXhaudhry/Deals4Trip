@@ -1,0 +1,52 @@
+#root {
+  margin: 0 ;
+  padding: 0;
+  overflow: hidden;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px; 
+  height: 16px;
+  background-color: #80A102;
+  border-radius: 50%; 
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 16px; 
+  height: 16px;
+  background-color: #80A102;
+  border-radius: 50%; 
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-thumb {
+  width: 16px; 
+  height: 16px;
+  background-color: #80A102;
+  border-radius: 50%; 
+  cursor: pointer;
+}
+
+/* recaptchaStyles.css */
+.recaptcha-wrapper {
+  display: inline-block; 
+  width: 260px;
+  overflow: hidden; 
+  border-radius: 2px; 
+}
+
+.recaptcha-wrapper iframe {
+  transform: scale(0.85); 
+  transform-origin: 0 0; 
+}
+.recaptcha-wrapper div {
+  margin: 0 auto; 
+}
+
+.carousel-custom .p-carousel-container {
+  display: flex;
+  gap: 6rem;
+}
+

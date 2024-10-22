@@ -1,0 +1,139 @@
+.calendar-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.calendar-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+}
+.calendar-dropdown2 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+}
+.calendar-dropdown .react-datepicker {
+  font-family: inherit;
+  border: none;
+  box-shadow: none;
+}
+.calendar-dropdown2 .react-datepicker {
+  font-family: inherit;
+  border: none;
+  box-shadow: none;
+}
+
+.calendar-dropdown .react-datepicker__header {
+  background-color: #f3f4f6;
+  border-bottom: none;
+  padding: 0.5rem 0;
+}
+.calendar-dropdown2 .react-datepicker__header {
+  background-color: #f3f4f6;
+  border-bottom: none;
+  padding: 0.5rem 0;
+}
+
+.calendar-dropdown .react-datepicker__current-month,
+.calendar-dropdown .react-datepicker-time__header,
+.calendar-dropdown .react-datepicker-year-header {
+  color: #80A102;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.calendar-dropdown2 .react-datepicker__current-month,
+.calendar-dropdown2 .react-datepicker-time__header,
+.calendar-dropdown2 .react-datepicker-year-header {
+  color: #80A102;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.calendar-dropdown .react-datepicker__day-name,
+.calendar-dropdown .react-datepicker__day {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+.calendar-dropdown2 .react-datepicker__day-name,
+.calendar-dropdown2 .react-datepicker__day {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.calendar-dropdown .react-datepicker__day--selected,
+.calendar-dropdown .react-datepicker__day--in-selecting-range,
+.calendar-dropdown .react-datepicker__day--in-range,
+.calendar-dropdown .react-datepicker__month-text--selected,
+.calendar-dropdown .react-datepicker__month-text--in-selecting-range,
+.calendar-dropdown .react-datepicker__month-text--in-range,
+.calendar-dropdown .react-datepicker__quarter-text--selected,
+.calendar-dropdown .react-datepicker__quarter-text--in-selecting-range,
+.calendar-dropdown .react-datepicker__quarter-text--in-range,
+.calendar-dropdown .react-datepicker__year-text--selected,
+.calendar-dropdown .react-datepicker__year-text--in-selecting-range,
+.calendar-dropdown .react-datepicker__year-text--in-range {
+  background-color: #80A102;
+  color: #fff;
+}
+.calendar-dropdown2 .react-datepicker__day--selected,
+.calendar-dropdown2 .react-datepicker__day--in-selecting-range,
+.calendar-dropdown2 .react-datepicker__day--in-range,
+.calendar-dropdown2 .react-datepicker__month-text--selected,
+.calendar-dropdown2 .react-datepicker__month-text--in-selecting-range,
+.calendar-dropdown2 .react-datepicker__month-text--in-range,
+.calendar-dropdown2 .react-datepicker__quarter-text--selected,
+.calendar-dropdown2 .react-datepicker__quarter-text--in-selecting-range,
+.calendar-dropdown2 .react-datepicker__quarter-text--in-range,
+.calendar-dropdown2 .react-datepicker__year-text--selected,
+.calendar-dropdown2 .react-datepicker__year-text--in-selecting-range,
+.calendar-dropdown2 .react-datepicker__year-text--in-range {
+  background-color: #80A102;
+  color: #fff;
+}
+
+.calendar-dropdown .react-datepicker__navigation {
+  top: 0.5rem;
+}
+.calendar-dropdown2 .react-datepicker__navigation {
+  top: 0.5rem;
+}
+
+.calendar-dropdown .react-datepicker__navigation--previous,
+.calendar-dropdown .react-datepicker__navigation--next {
+  border-color: #6b7280;
+}
+.calendar-dropdown2 .react-datepicker__navigation--previous,
+.calendar-dropdown2 .react-datepicker__navigation--next {
+  border-color: #6b7280;
+}
+
+.calendar-dropdown .react-datepicker__navigation--previous:hover,
+.calendar-dropdown .react-datepicker__navigation--next:hover {
+  border-color: #374151;
+}
+.calendar-dropdown2 .react-datepicker__navigation--previous:hover,
+.calendar-dropdown2 .react-datepicker__navigation--next:hover {
+  border-color: #374151;
+}
+
+@media (max-width: 640px) {
+  .calendar-dropdown {
+    left: -8rem;
+  }
+  .calendar-dropdown2 {
+    left: -2rem;
+  }
+}
